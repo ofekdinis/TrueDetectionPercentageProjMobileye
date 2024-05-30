@@ -1,0 +1,41 @@
+2024-05-30 12:15:56,351 - INFO - start logging
+2024-05-30 12:15:56,351 - INFO - start generate_true_detection_data
+2024-05-30 12:18:06,751 - INFO - start logging
+2024-05-30 12:18:06,751 - INFO - start generate_true_detection_data
+2024-05-30 12:18:06,752 - INFO - start run sql query
+2024-05-30 12:18:08,759 - INFO - Started query with execution ID: e45f03f5-f0be-480e-84a7-b8b0ad38f684
+2024-05-30 12:18:08,761 - INFO - finish run sql query
+2024-05-30 12:18:08,765 - INFO - Sleep 30 second, waiting for the query execution to finish
+2024-05-30 12:18:38,769 - INFO - done Sleep
+2024-05-30 12:18:38,770 - INFO - start get sql query result data
+2024-05-30 12:18:40,761 - INFO - done get sql query result data
+2024-05-30 12:18:40,764 - INFO - start format_output_data
+2024-05-30 12:18:40,783 - INFO - Creating Bar Chart
+2024-05-30 12:18:41,571 - INFO - done format_output_data
+2024-05-30 12:18:41,571 - INFO - done generate_true_detection_data
+2024-05-30 13:26:10,437 - INFO - start logging
+2024-05-30 13:26:10,437 - INFO - start generate_true_detection_data
+2024-05-30 13:26:10,438 - INFO - start run sql query
+2024-05-30 13:26:14,965 - INFO - Started query with execution ID: 642ce462-afed-4e41-b96c-e1c3c9c19f3e
+2024-05-30 13:26:14,965 - INFO - finish run sql query
+2024-05-30 13:26:14,968 - INFO - Sleep 30 second, waiting for the query execution to finish
+2024-05-30 13:26:44,973 - INFO - done Sleep
+2024-05-30 13:26:44,974 - INFO - start get sql query result data
+2024-05-30 13:27:15,525 - INFO - done get sql query result data
+2024-05-30 13:27:15,526 - INFO - start format_output_data
+2024-05-30 13:27:15,535 - INFO - Creating Bar Chart
+2024-05-30 13:27:24,018 - INFO - done format_output_data
+2024-05-30 13:27:24,018 - INFO - done generate_true_detection_data
+2024-05-30 13:31:59,819 - INFO - start logging
+2024-05-30 13:31:59,819 - INFO - start generate_true_detection_data
+2024-05-30 13:31:59,819 - INFO - start run sql query
+2024-05-30 13:32:00,925 - INFO - Started query with execution ID: ad166ddd-5b2b-47fb-8434-37a6ab741b69
+2024-05-30 13:32:00,925 - INFO - finish run sql query
+2024-05-30 13:32:00,928 - INFO - Sleep 30 second, waiting for the query execution to finish
+2024-05-30 13:32:30,931 - INFO - done Sleep
+2024-05-30 13:32:30,933 - INFO - start get sql query result data
+2024-05-30 13:32:32,579 - INFO - done get sql query result data
+2024-05-30 13:32:32,582 - INFO - start format_output_data
+2024-05-30 13:32:32,597 - INFO - Creating Bar Chart
+2024-05-30 13:32:33,065 - INFO - done format_output_data
+2024-05-30 13:32:33,065 - INFO - done generate_true_detection_data

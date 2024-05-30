@@ -1,0 +1,305 @@
+{
+    "UpdateCount": 0,
+    "ResultSet": {
+        "Rows": [
+            {
+                "Data": [
+                    {
+                        "VarCharValue": "vehicle_type"
+                    },
+                    {
+                        "VarCharValue": "1-30"
+                    },
+                    {
+                        "VarCharValue": "31-60"
+                    },
+                    {
+                        "VarCharValue": "61-90"
+                    },
+                    {
+                        "VarCharValue": "91-100"
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    {
+                        "VarCharValue": "bicycle"
+                    },
+                    {
+                        "VarCharValue": "74.24"
+                    },
+                    {
+                        "VarCharValue": "75.692"
+                    },
+                    {
+                        "VarCharValue": "74.974"
+                    },
+                    {
+                        "VarCharValue": "74.471"
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    {
+                        "VarCharValue": "bike"
+                    },
+                    {
+                        "VarCharValue": "73.545"
+                    },
+                    {
+                        "VarCharValue": "75.877"
+                    },
+                    {
+                        "VarCharValue": "75.205"
+                    },
+                    {
+                        "VarCharValue": "74.725"
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    {
+                        "VarCharValue": "bus"
+                    },
+                    {
+                        "VarCharValue": "76.862"
+                    },
+                    {
+                        "VarCharValue": "73.368"
+                    },
+                    {
+                        "VarCharValue": "75.134"
+                    },
+                    {
+                        "VarCharValue": "74.219"
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    {
+                        "VarCharValue": "car"
+                    },
+                    {
+                        "VarCharValue": "74.901"
+                    },
+                    {
+                        "VarCharValue": "74.839"
+                    },
+                    {
+                        "VarCharValue": "75.166"
+                    },
+                    {
+                        "VarCharValue": "74.792"
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    {
+                        "VarCharValue": "ignore"
+                    },
+                    {},
+                    {},
+                    {},
+                    {
+                        "VarCharValue": "100.0"
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    {
+                        "VarCharValue": "pickup"
+                    },
+                    {
+                        "VarCharValue": "73.333"
+                    },
+                    {
+                        "VarCharValue": "75.046"
+                    },
+                    {
+                        "VarCharValue": "75.818"
+                    },
+                    {
+                        "VarCharValue": "76.768"
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    {
+                        "VarCharValue": "scooter"
+                    },
+                    {
+                        "VarCharValue": "78.125"
+                    },
+                    {
+                        "VarCharValue": "75.0"
+                    },
+                    {
+                        "VarCharValue": "74.194"
+                    },
+                    {
+                        "VarCharValue": "60.0"
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    {
+                        "VarCharValue": "trailer"
+                    },
+                    {
+                        "VarCharValue": "74.427"
+                    },
+                    {
+                        "VarCharValue": "75.088"
+                    },
+                    {
+                        "VarCharValue": "74.823"
+                    },
+                    {
+                        "VarCharValue": "76.053"
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    {
+                        "VarCharValue": "trike"
+                    },
+                    {
+                        "VarCharValue": "72.727"
+                    },
+                    {
+                        "VarCharValue": "75.0"
+                    },
+                    {
+                        "VarCharValue": "62.5"
+                    },
+                    {
+                        "VarCharValue": "100.0"
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    {
+                        "VarCharValue": "truck"
+                    },
+                    {
+                        "VarCharValue": "75.18"
+                    },
+                    {
+                        "VarCharValue": "75.025"
+                    },
+                    {
+                        "VarCharValue": "74.68"
+                    },
+                    {
+                        "VarCharValue": "74.956"
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    {
+                        "VarCharValue": "van"
+                    },
+                    {
+                        "VarCharValue": "74.138"
+                    },
+                    {
+                        "VarCharValue": "75.48"
+                    },
+                    {
+                        "VarCharValue": "74.889"
+                    },
+                    {
+                        "VarCharValue": "76.093"
+                    }
+                ]
+            }
+        ],
+        "ResultSetMetadata": {
+            "ColumnInfo": [
+                {
+                    "CatalogName": "hive",
+                    "SchemaName": "",
+                    "TableName": "",
+                    "Name": "vehicle_type",
+                    "Label": "vehicle_type",
+                    "Type": "varchar",
+                    "Precision": 2147483647,
+                    "Scale": 0,
+                    "Nullable": "UNKNOWN",
+                    "CaseSensitive": true
+                },
+                {
+                    "CatalogName": "hive",
+                    "SchemaName": "",
+                    "TableName": "",
+                    "Name": "1-30",
+                    "Label": "1-30",
+                    "Type": "double",
+                    "Precision": 17,
+                    "Scale": 0,
+                    "Nullable": "UNKNOWN",
+                    "CaseSensitive": false
+                },
+                {
+                    "CatalogName": "hive",
+                    "SchemaName": "",
+                    "TableName": "",
+                    "Name": "31-60",
+                    "Label": "31-60",
+                    "Type": "double",
+                    "Precision": 17,
+                    "Scale": 0,
+                    "Nullable": "UNKNOWN",
+                    "CaseSensitive": false
+                },
+                {
+                    "CatalogName": "hive",
+                    "SchemaName": "",
+                    "TableName": "",
+                    "Name": "61-90",
+                    "Label": "61-90",
+                    "Type": "double",
+                    "Precision": 17,
+                    "Scale": 0,
+                    "Nullable": "UNKNOWN",
+                    "CaseSensitive": false
+                },
+                {
+                    "CatalogName": "hive",
+                    "SchemaName": "",
+                    "TableName": "",
+                    "Name": "91-100",
+                    "Label": "91-100",
+                    "Type": "double",
+                    "Precision": 17,
+                    "Scale": 0,
+                    "Nullable": "UNKNOWN",
+                    "CaseSensitive": false
+                }
+            ]
+        }
+    },
+    "ResponseMetadata": {
+        "RequestId": "02ff2fb8-0f6b-4726-83e8-f4623efacf7e",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "date": "Thu, 30 May 2024 10:32:32 GMT",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "4081",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "02ff2fb8-0f6b-4726-83e8-f4623efacf7e"
+        },
+        "RetryAttempts": 0
+    }
+}
