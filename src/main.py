@@ -88,7 +88,23 @@ class VehicleDetectionPercentage:
         # Saving the plot to a file
         plt.tight_layout()
         plt.savefig('vehicle_type_bar_chart.png')
+    @staticmethod
+    def get_sleep_time():
+        sleep_time = os.getenv('SLEEP_TIME', '30')
+        try:
+            sleep_time = int(sleep_time)
+        except ValueError:
+            logging.warning(f"Invalid SLEEP_TIME value: {sleep_time}, defaulting to 30 seconds.")
+            sleep_time = 30
 
+        if sleep_time < 0:
+            logging.warning(f"SLEEP_TIME value is less than 0: {sleep_time}, defaulting to 30 seconds.")
+            sleep_time = 30
+        elif sleep_time > 120:
+            logging.warning(f"SLEEP_TIME value exceeds 120 seconds: {sleep_time}, capping to 120 seconds.")
+            sleep_time = 120
+
+        return sleep_time
     def generate_true_detection_data(self):
         """
         Create SQL query and run it,
@@ -114,9 +130,8 @@ class VehicleDetectionPercentage:
                 )
                 exit(1)
             query_execution_id = athena.run_sql_query(sql_query, self.database, self.output_location)  # Test
-            logging.info("Sleep 30 seconds, waiting for the query execution to finish")
-            time.sleep(30)  # Sleep 30 seconds, waiting for the query execution to finish
-            logging.info("Done Sleep")
+            logging.info(f"Sleep for {VehicleDetectionPercentage.get_sleep_time()} seconds, waiting for the query execution to finish")
+            time.sleep(VehicleDetectionPercentage.get_sleep_time())
             # query_execution_id="923e6aed-815b-4f31-847d-fdce5bcf02d5"
             json_data = athena.get_query_result(query_execution_id)
             df = VehicleDetectionPercentage._format_output_data(json_data)
