@@ -66,6 +66,7 @@ class QueryAthena:
 
 
 if __name__ == '__main__':
+    from main import VehicleDetectionPercentage
     # Main for testing sample query
     logging.basicConfig(filename='../query_athena.log', level=logging.INFO)
     logging.info("Start logging")
@@ -77,5 +78,5 @@ if __name__ == '__main__':
 
     query_execution_id = athena.run_sql_query(sql_query, database, output_location)  # Test
     # query_execution_id = "0482a444-fcc5-4551-9e6e-75dae28508e8"
-    time.sleep(30)
+    time.sleep(VehicleDetectionPercentage.get_sleep_time())
     result = athena.get_query_result(query_execution_id)
