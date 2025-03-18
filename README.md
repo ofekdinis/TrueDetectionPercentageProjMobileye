@@ -1,4 +1,4 @@
-Big Data Analytics team – Technical interview
+Big Data Analytics
 Program description:
 Data inputs:
 The program use data found in s3 bucket and schema from glue (already defined)
